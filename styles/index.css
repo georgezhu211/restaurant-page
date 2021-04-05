@@ -1,0 +1,59 @@
+body, html {
+  background-image: url(../images/fish-in-ocean.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#content {
+  background-color: rgba(66, 198, 255, 0.5);
+  color: #150e56;
+  height: 600px;
+  margin: 0 50px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background-color: #57cdff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-flow: flex-end;
+  justify-content: flex-end;
+}
+
+img {
+  width: 100px;
+}
+
+.links > li {
+  padding: 20px 15px;
+  background-color: #00b3ff;
+}
+
+.tabs:hover {
+  background-color: #00a5ec;
+  cursor: pointer;
+}
+
+.tabs:focus {
+  outline: none;
+  background-color: #00a5ec;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  padding: 40px;
+}
+
+p {
+  font-size: 28px;
+  padding: 0 50px;
+}

@@ -1,0 +1,5 @@
+import { about } from './about'
+import { contact } from './contact'
+import { gallery } from './gallery'
+import { menu } from './menu'
+import { news } from './news'
