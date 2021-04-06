@@ -1,8 +1,6 @@
 const gallery = (() => {
   const content = document.querySelector('#content')
-  const galleryTab = document.querySelector('#gallery')
-
-  galleryTab.addEventListener('click', render)
+  
   function render() {
     content.innerHTML = ''
     const title = document.createElement('h1')

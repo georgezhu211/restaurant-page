@@ -1,8 +1,6 @@
 const menu = (() => {
   const content = document.querySelector('#content')
-  const menuTab = document.querySelector('#menu')
-
-  menuTab.addEventListener('click', render)
+  
   function render() {
     content.innerHTML = ''
     const title = document.createElement('h1')

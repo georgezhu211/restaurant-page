@@ -1,8 +1,6 @@
 const news = (() => {
   const content = document.querySelector('#content')
-  const newsTab = document.querySelector('#news')
-
-  newsTab.addEventListener('click', render)
+  
   function render() {
     content.innerHTML = ''
     const title = document.createElement('h1')

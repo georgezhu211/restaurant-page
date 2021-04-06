@@ -1,8 +1,6 @@
 const contact = (() => {
   const content = document.querySelector('#content')
-  const contactTab = document.querySelector('#contact')
-
-  contactTab.addEventListener('click', render)
+  
   function render() {
     content.innerHTML = ''
     const title = document.createElement('h1')
