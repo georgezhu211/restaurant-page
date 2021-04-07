@@ -1,0 +1,62 @@
+body, html {
+  background-image: url(../images/sea-2052650_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: #011640;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  background-color: #0583F2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+.links > li {
+  padding: 15px;
+  margin-left: 1px;
+}
+
+li:hover {
+  background-color: #056CF2;
+}
+
+li:focus {
+  outline: none;
+  background-color: #056CF2;
+}
+
+#content {
+  padding: 100px;
+  background-color: rgba(5, 108, 242, 0.7);
+  color: rgb(241, 241, 241);
+  width: 600px;
+  height: 400px;
+  margin: 100px auto;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 22px;
+}
